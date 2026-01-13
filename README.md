@@ -1,12 +1,11 @@
-# How to display the image and text in column in WPF TreeGrid (SfTreeGrid)?
+# How to Display the Image and Text in WPF TreeGrid Column?
 
-## About the sample
+This example illustrates how to display the image and text in column in [WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) (SfTreeGrid).
 
-This example illustrates how to display the image and text in column in WPF TreeGrid.
+`TreeGrid` allows you to display image and text in the columns by using [TreeGridTemplateColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridTemplateColumn.html).
 
-[WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) (SfTreeGrid) allows you to display image and text in the columns by using [TreeGridTemplateColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridTemplateColumn.html).
-
-```Xaml
+#### XAML
+``` xml
 <syncfusion:TreeGridTemplateColumn MappingName="FirstName">
     <syncfusion:TreeGridTemplateColumn.CellTemplate>
         <DataTemplate>
@@ -25,13 +24,9 @@ This example illustrates how to display the image and text in column in WPF Tree
         </DataTemplate>
     </syncfusion:TreeGridTemplateColumn.EditTemplate>
 </syncfusion:TreeGridTemplateColumn> 
-
 ```
 
-![Image and Text Column](ImageAndTextColumn.png)
-
-KB article - [How to display the image and text in column in WPF TreeGrid (SfTreeGrid)?](https://www.syncfusion.com/kb/12642/how-to-display-the-image-and-text-in-wpf-treegrid-sftreegrid-column)
+![DataGrid column to show image and text in a column](ImageAndTextColumn.png)
 
 ## Requirements to run the demo 
-
 Visual Studio 2015 and above versions.
